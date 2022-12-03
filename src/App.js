@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Name from './Name';
 import setName from './setName';
 import './App.css';
