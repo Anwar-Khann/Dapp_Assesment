@@ -2,7 +2,6 @@ import React, { useState} from 'react'
 import { ethers } from 'ethers';
 import ContractABI from "./ContractABI/ABI.json";
 
-
 function ResetName() {
     const [esetName, setResetName] = useState();
     async function Submit() {
