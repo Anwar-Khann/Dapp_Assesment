@@ -32,6 +32,7 @@ function ResetName() {
   return (
       <div>
           <button onClick={Submit} className='btn btn-success'>ResetName</button>
+        <p>{esetName}</p>
     </div>
   )
 }
