@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import Name from './Name';
-import setName from './setName';
+import React from 'react';
+
 import './App.css';
+import Name from './Name';
+import SetScan from './SetScan';
 
 function App() {
   return (
     <div className="App">
-      <Name/>
-      <setName/>
+      <SetScan></SetScan>
+      <Name></Name>
     </div>
   );
 }
