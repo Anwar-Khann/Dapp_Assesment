@@ -5,7 +5,6 @@ import { ethers } from "ethers";
 
 export default function Name() {
   const [nam, setNam] = useState();
-
   async function Submit() {
     if (typeof window.ethereum !== "undefined") {
       try {
